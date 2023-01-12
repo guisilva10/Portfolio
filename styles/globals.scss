@@ -35,6 +35,10 @@ h1,
   @include device(notebook){
     font-size: 6.5rem;
   }
+  @include device(notebook){
+    font-size: 5.6rem;
+  }
+
 }
 
 h2,

@@ -29,7 +29,7 @@ const Header = ({header, social}) => {
           <a href={instagram}><AiFillInstagram className={styles.icon}/></a>
           <a href={whatsapp}><RiWhatsappFill className={styles.icon}/></a>
         </div>
-          <a href="#" className={styles.arrow}> 
+          <a href="#about" className={styles.arrow}> 
             <AiOutlineArrowDown className={styles.icon}/>
           </a>
       </div>

@@ -16,16 +16,6 @@
       justify-content: space-between;
     }
 
-    .logo {
-      position: absolute;
-      top: 2rem;
-      left: 2rem;
-
-      @include device(tablet) {
-        position: static;
-      }
-    }
-
     .list {
       list-style: none;
 
