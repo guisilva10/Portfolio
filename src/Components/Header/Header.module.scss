@@ -24,13 +24,7 @@
     }
     
     
-    @include device(mobile){
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 8rem;
-      padding-bottom: 2rem;
-    }
+  
   
 
 
@@ -49,12 +43,6 @@
       margin-bottom: 6rem;
     }
     
-    
-    @include device(notebook){
-      position: static;
-      transform: translateY(0);
-      margin-bottom: 4rem;
-    }
 
 
     &::before {
