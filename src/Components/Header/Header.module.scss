@@ -42,12 +42,6 @@
       margin-bottom: 6rem;
     }
     
-    
-    @include device(notebook){
-      position: static;
-      transform: translateY(0);
-      margin-bottom: 4rem;
-    }
 
 
     &::before {

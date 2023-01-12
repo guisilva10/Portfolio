@@ -35,11 +35,13 @@ h1,
   @include device(notebook){
     font-size: 6.5rem;
   }
-  @include device(notebook){
+
+  @include device(mobile){
     font-size: 5.2rem;
   }
 
 }
+
 
 h2,
 .h2 {
