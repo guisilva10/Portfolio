@@ -35,6 +35,9 @@ h1,
   @include device(notebook){
     font-size: 6.5rem;
   }
+  @include device(mobile){
+    font-size: 5.5rem;
+  }
 }
 
 h2,
