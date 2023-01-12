@@ -1,5 +1,4 @@
 import styles from './Navbar.module.scss';
-import Image from 'next/image';
 import Navlink from './Navlink';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -16,9 +15,7 @@ const Navbar = () => {
   return (
     <section className={styles['navbar-wrapper']}>
       <div className={styles.navbar}>
-        <a href='/' className={styles.logo}>
-          <Image src='/lobus.jpg' layout='fixed' width={42} height={27} />
-        </a>
+      
         <nav>
           <ul className={styles.list}>
             <Navlink url='#about' text='Sobre Mim' />
