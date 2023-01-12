@@ -23,14 +23,14 @@
       padding-bottom: 4rem;
     }
 
-    
-  
 
+  
+   
 
   .image {
     width: 100%;
     max-width: 45rem;
-    height: 45rem;
+    height: 45rem; 
     position: absolute;
     top: 50%;
     left: 2rem;
@@ -40,6 +40,13 @@
       position: static;
       transform: translateY(0);
       margin-bottom: 6rem;
+    }
+    
+    
+    @include device(notebook){
+      position: static;
+      transform: translateY(0);
+      margin-bottom: 4rem;
     }
 
 

@@ -15,6 +15,7 @@ const Navbar = () => {
   return (
     <section className={styles['navbar-wrapper']}>
       <div className={styles.navbar}>
+
         <nav>
           <ul className={styles.list}>
             <Navlink url='#about' text='Sobre Mim' />
