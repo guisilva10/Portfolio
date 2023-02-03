@@ -21,7 +21,7 @@ const InputField = ({
     {!isTextarea && <input type="text" {...commonProps} /> }
     {isTextarea &&  <textarea {...commonProps} rows="10"></textarea>}
    { hasError &&  (
-    <span className='error'>Ops !, o campo está incorreto.</span>
+    <span className='error'>Ops !!, o campo está incorreto.</span>
    )}
   </div>
   )
