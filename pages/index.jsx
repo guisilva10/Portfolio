@@ -4,6 +4,7 @@ import Header from "src/Components/Header/Header";
 import Navbar from "src/Components/Navbar/Navbar";
 import Projects from "src/Components/Projects/Projects";
 import Skills from "src/Components/Skills/Skills";
+import WhatsApp from "src/Components/WhatsApp";
 import client from "src/sanity";  
 
 
@@ -19,6 +20,7 @@ export default function Home({header, social ,about, skills, projects, footer}) 
     <Projects projects={projects}/>
    </main>
    <Footer footer={footer}/>
+   <WhatsApp/>
   </>
   )
 }

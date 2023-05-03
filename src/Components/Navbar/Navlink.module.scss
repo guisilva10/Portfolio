@@ -19,7 +19,8 @@
 
 
     &:hover{
-      font-weight: 600;
+      color: $primary;
+      transition: all 0.3s;
     }
   }
 }

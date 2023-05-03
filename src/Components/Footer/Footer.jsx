@@ -31,7 +31,7 @@ const Footer = ({ footer }) => {
     setIsTouched: setIsMessageTouched,
     inputHasError: messageHasError,
 
-  } = useValidation((value) => value.length >= 30);
+  } = useValidation((value) => value.length >= 0);
 
   const {
     value: email,

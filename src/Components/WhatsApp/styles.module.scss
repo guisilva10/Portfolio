@@ -1,0 +1,41 @@
+@import 'styles/variables.scss';
+@import 'styles/mixins.scss';
+
+.whatsApp {
+  max-width: 1440px;
+  position: fixed;
+  cursor: pointer;
+  bottom: 40px;
+  right: 23px;
+
+
+  a{
+    color: #40c351;
+    background: $white;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    font-size: 5.9rem;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    animation: up-down 0.7s infinite alternate;
+    transition: all 0.3s;
+
+    :hover{
+      color: #38ad47;
+    }
+
+
+    @keyframes up-down {
+      from {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(-1rem);
+      }
+    }
+  }
+}
