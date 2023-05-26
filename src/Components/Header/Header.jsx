@@ -19,7 +19,7 @@ const Header = ({header}) => {
           <Image src={imageUrl(image).url()} layout='fill'/>
         </div>
         <div className={styles.content}>
-          <span>Olá, eu sou o {name},  e sou um...</span>
+          <span>Olá, eu sou o <span className={styles.name}>{name}</span>,  e sou um...</span>
           <h1>{ocupation}</h1>
           <p>{summary}</p>
         </div>
