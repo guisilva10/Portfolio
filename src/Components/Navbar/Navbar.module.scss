@@ -6,11 +6,13 @@
   position: fixed;
   width: 100%;
   z-index: 10;
+  border-bottom: 0.1rem solid $lightPrimary;
+  padding: .5rem;
 
   .navbar {
     @include max-width;
     @include flex-center;
-    padding: 2.3rem 2rem;
+    padding: 2.5rem 2rem;
 
     @include device(tablet) {
       justify-content: space-between;

@@ -4,6 +4,7 @@
 .header-wrapper {
   background-color: $background;
   margin-bottom: calc($marginBottom + 7rem);
+  height: 100vh;
 
   @include device(mobile){
     margin-bottom: calc($marginBottomMobile + 7rem);
@@ -36,6 +37,7 @@
     top: 50%;
     left: 2rem;
     transform: translateY(-50%);
+  
 
     @include device(notebook){
       position: static;
@@ -55,6 +57,7 @@
       left: -0.5rem;
       border-top: 0.5rem solid $lightPrimary;
       border-left: 0.5rem solid $lightPrimary;
+      
     }
   }
 
@@ -65,7 +68,7 @@
     max-width: 76rem;
     flex-direction: column;
     top: 50%;
-    right: 2rem;
+    right: 2.5rem;
     transform: translateY(-50%);
 
 
